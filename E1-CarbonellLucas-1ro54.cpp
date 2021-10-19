@@ -1,8 +1,14 @@
- //E1: Se debe ingresar nombre, sexo, edad y porcentaje de tiempo transcurrido de este año "(mes actual / total meses)*100". Mostrar los resultados correspondient
+/*
+E1:
+	Se debe ingresar nombre, sexo, edad y porcentaje de tiempo transcurrido de este ano
+	(mes actual / total meses)*100"
+	Mostrar los resultados correspondientes
+*/
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdio_ext.h>
 
-main(){
+int main(){
 	char nombre[50];
 	char sexo;
 	int edad;
@@ -11,7 +17,7 @@ main(){
 	
 	printf("ingresar nombre: ");
 	scanf("%s", nombre);
-	fflush(stdin);
+	__fpurge(stdin); //fflush(stdin);
 	printf("sexo: ");
 	scanf("%c",&sexo);
 	
@@ -23,6 +29,6 @@ main(){
 	
 	porcentaje=(mes/12.0)*100.0;
 	printf("nombre: %s \n sexo: %c\n edad: %i\n mes: %i\n porcentaje: %f\n",nombre,sexo,edad,mes,porcentaje);
-	system("pause");
-	
+	getchar(); // system("pause");
+	return 0;
 }
