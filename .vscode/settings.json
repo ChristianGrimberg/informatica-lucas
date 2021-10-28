@@ -1,0 +1,12 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "git.autofetch": true,
+    "git.autofetchPeriod": 60,
+    "git.confirmSync": false,
+    "git.enableCommitSigning": true,
+    "terminal.integrated.automationShell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "terminal.integrated.defaultProfile.windows": "/bin/bash (migrated)",
+    "markdown.styles": [
+        "css/markdown-styles.css"
+    ]
+}
