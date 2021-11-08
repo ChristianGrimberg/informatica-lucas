@@ -2,7 +2,7 @@
 	AUTOR: Lucas Carbonell
 	COMISION: 1ro 54
 
-	E16. Pedir al operador que ingrese 20 numeros enteros mayores a 15,
+	E16: Pedir al operador que ingrese 20 numeros enteros mayores a 15,
 	mostrar por pantalla, la suma, el promedio,
 	la cantidad de numeros pares y la cantidad de n�umeros impares ingresados.
 */
@@ -21,7 +21,7 @@ main()
 	int numero;
 	int contador=0;
 	
-	for(contador=0; contador<CANTIDAD; contador=contador+1)	
+	for(contador=0; contador<CANTIDAD; contador=contador+1)
 	{
 		printf("Ingresar un Nro:\t");
 		scanf("%i", &numero);
