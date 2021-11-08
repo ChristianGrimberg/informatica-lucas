@@ -49,7 +49,7 @@ main()
                     printf("Ingrese la descripcion del articulo %i: ",i+1);
                     fflush(stdin);
                     setbuf(stdin, NULL);
-                    scanf("%s",descripciones[i]);
+                    scanf("%s",&descripciones[i]);
                     printf("Ingrese la cantidad: ");
                     scanf("%i",&cantidadades[i]);
                     printf("Ingrese el precio unitario: ");
