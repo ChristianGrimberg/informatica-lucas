@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E1: Se debe ingresar nombre, sexo, edad
 	y porcentaje de tiempo transcurrido de este año
 	(mes actual / total meses)*100"
