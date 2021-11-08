@@ -19,7 +19,7 @@ int main()
      float promedio;
      float suma = 0;
 
-     for (c = 0; c < CANTIDAD; c = c + 1) 
+     for (c = 0; c < CANTIDAD; c++)
      {
           printf("\nNombre:\t");
           fflush(stdin);
@@ -30,14 +30,14 @@ int main()
      }
 
      promedio = suma / CANTIDAD;
-     printf("Promedio:%.3f\t", promedio); 
+     printf("Promedio:%.3f\t", promedio);
      printf("\n");
 
      //system("pause");
      //system("cls");
-     
+
      printf("\nListado General");
-     for (c = 0; c < CANTIDAD; c = c + 1) 
+     for (c = 0; c < CANTIDAD; c++)
      {
           printf("\n%s", apellidos[c]);
           printf("\t\t\t%.2f", sueldos[c]);

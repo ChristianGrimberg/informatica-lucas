@@ -12,7 +12,7 @@
 
 char menu();
 
-int main()
+main()
 {
 	float numero1 = 0;
 	float numero2 = 0;
@@ -66,7 +66,6 @@ int main()
 		
 		system("pause");
 	}
-	return 0;
 }
 
 char menu()

@@ -14,7 +14,7 @@
 
 #define MES 30
 
-void main()
+main()
 {
     float maxima;
     float minima;
