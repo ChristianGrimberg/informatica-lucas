@@ -17,7 +17,7 @@ int main(){
 	
 	printf("ingresar nombre: ");
 	scanf("%s", nombre);
-	__fpurge(stdin); //fflush(stdin);
+	fflush(stdin); //__fpurge(stdin);
 	printf("sexo: ");
 	scanf("%c",&sexo);
 	
@@ -29,6 +29,6 @@ int main(){
 	
 	porcentaje=(mes/12.0)*100.0;
 	printf("nombre: %s \n sexo: %c\n edad: %i\n mes: %i\n porcentaje: %f\n",nombre,sexo,edad,mes,porcentaje);
-	getchar(); // system("pause");
+	system("pause"); //getchar();
 	return 0;
 }

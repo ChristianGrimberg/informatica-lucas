@@ -1,28 +1,24 @@
-/*
-E3 (Ejercicio 5):
-  De un alumno del curso de ingreso a la UTN se ingresan
-  las notas obtenidas en los examenes de las 3 materias que lo forman. 
-  Calcular el promedio del alumno y mostrarlo por pantalla.
-*/
+//E3. ' Ejercicio 5:De un alumno del curso de ingreso a la UTN se ingresan las notas obtenidas en los ex�menes de las 3 materias que lo forman. 
+//Calcular el promedio del alumno y mostrarlo por pantalla.
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-  float notas[3];
-  float promedio;
-  
-  printf("nota 1: ");
-  scanf("%f",&notas[0]);
+main(){
+ float notas[3];
+ float promedio;
  
-  printf("nota 2: ");
-  scanf("%f",&notas[1]);
  
-  printf("nota 3: ");
-  scanf("%f",&notas[2]);
+ printf("nota 1: ");
+ scanf("%f",&notas[0]);
+ 
+ printf("nota 2: ");
+ scanf("%f",&notas[1]);
+ 
+ printf("nota 3: ");
+ scanf("%f",&notas[2]);
   
   promedio=(notas[0]+notas[1]+notas[2])/3.0;
-  
   printf("promedio: %f\n", promedio);
-  getchar(); // system("pause");
-	return 0;
+  system("pause"); //getchar();
+  	
 }

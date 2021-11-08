@@ -1,11 +1,8 @@
-/*
-E2:
-    Ingresar 3 numeros y mostrarlos (uno al lado del otro y uno debajo del otro)
-*/
+// Ingresar 3 numeros y mostrarlos (uno al lado del otro y uno debajo del otro)
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+main() {
     int numeroUno;
     int numeroDos;
     int numeroTres;
@@ -18,6 +15,5 @@ int main() {
     scanf("%i",&numeroTres);
     printf("%i %i %i",numeroUno,numeroDos,numeroTres);
     printf("\n%i\n%i\n%i\n",numeroUno,numeroDos,numeroTres);
-    getchar(); // system("pause");
-	return 0;
+    system("pause"); //getchar();
 }
