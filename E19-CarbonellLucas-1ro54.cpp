@@ -156,7 +156,7 @@ char menu()
 {
     char opcionElegida;
 
-    system("clear");
+    system("cls");
     printf("\n");
     printf("(A) Ingresar articulos\n");
     printf("(B) Calcular articulos\n");
