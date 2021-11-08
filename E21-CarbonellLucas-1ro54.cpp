@@ -35,7 +35,7 @@ main()
             case 'B':
             case 'C':
             case 'D':
-                for (int i = 0; i < 30; i = i + 3)
+                for (int i = 0; i <= 30; i = i + 3)
                 {
                     switch (opcion)
                     {
@@ -52,7 +52,7 @@ main()
                             resultado = cos((double)i) + sin((double)i) + tan((double)i);
                             break;
                     }
-                    printf("El resultado del angulo %i es %.2f",i,resultado);
+                    printf("El resultado del angulo %i es %.2f\n",i,resultado);
                 }
                 break;
             case 'X':

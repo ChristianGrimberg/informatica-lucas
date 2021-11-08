@@ -13,15 +13,15 @@
 main()
 {
     char opcion = '\0';
-    double angulo = 0;
+    float angulo = 0;
     double secante = 0;
 
     do
     {
         system("cls");
         printf("Calculo de la funcion secante\nIngrese el angulo a calcular: ");
-        scanf("%d", &angulo);
-        secante = 1 / cos(angulo);
+        scanf("%f", &angulo);
+        secante = 1 / cos((double)angulo);
         printf("La secante del angulo %.2f es %.2f\n", angulo, secante);
         printf("Desea continuar con el programa? (S/N): ");
         fflush(stdin);
