@@ -1,5 +1,10 @@
-//E3. ' Ejercicio 5:De un alumno del curso de ingreso a la UTN se ingresan las notas obtenidas en los ex�menes de las 3 materias que lo forman. 
-//Calcular el promedio del alumno y mostrarlo por pantalla.
+/*
+  E3: De un alumno del curso de ingreso a la UTN
+  se ingresan las notas obtenidas en los examenes
+  de las 3 materias que lo forman. 
+  
+  Calcular el promedio del alumno y mostrarlo por pantalla.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

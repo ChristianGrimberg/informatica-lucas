@@ -1,5 +1,10 @@
-//Hacer un algoritmo que calcule el total a pagar por la compra de camisas.
-// Si se compran tres camisas o más, se aplica un descuento del 20%  sobre el total de la compra y si son menos de tres camisas un descuento del 10%.
+/*
+	E6: Hacer un algoritmo que calcule
+	el total a pagar por la compra de camisas.
+	Si se compran tres camisas o mas, se aplica
+	un descuento del 20% sobre el total de la compra
+	y si son menos de tres camisas un descuento del 10%.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,7 +13,6 @@ main(){
 	float precioCamisa;
 	float total;
 	float totalConDescuento;
-	
 	
 	printf("precio: ");
 	scanf("%f",&precioCamisa);
@@ -27,4 +31,6 @@ main(){
 			printf("total con 10 descuento: %f",totalConDescuento);
 		}
 	}
+
+	system("pause"); //getchar();
 } 

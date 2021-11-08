@@ -1,4 +1,7 @@
-// Ingresar 2 números y realizar un menú de opciones para que los sume, reste o los muestre
+/*
+	E7: Ingresar 2 numeros y realizar un menu de opciones
+	para que los sume, reste o los muestre
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -34,7 +37,7 @@ main() {
 				break;
 			case 5:
 				printf("Resultado: %f\n",resultado);
-				system("pause");
+				system("pause"); //getchar();
 				break;
 		}
 	}

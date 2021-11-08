@@ -1,5 +1,10 @@
-// Diseñar el algoritmo necesario para que, habiéndose leído el valor de 2 variables NUM1 y NUM2 se intercambien los valores de las mismas,
-// es decir que el valor que tenía NUM1 ahora lo contenga NUM2 y viceversa.
+/*
+	E4: DiseÃ±ar el algoritmo necesario para que,
+	habiendose leido el valor de 2 variables NUM1 y NUM2
+	se intercambien los valores de las mismas,
+	es decir que el valor que tenia NUM1
+	ahora lo contenga NUM2 y viceversa.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,10 +18,12 @@ main(){
 	scanf("%i",&NUM2);
 	
 	printf("NUM1: %i NUM2: %i",NUM1,NUM2);
+	
 	auxiliar=NUM1;
 	NUM1=NUM2;
 	NUM2=auxiliar;
 	
-	
 	printf("\nNUM1: %i NUM2: %i",NUM1,NUM2);
+
+	system("pause"); //getchar();
 }

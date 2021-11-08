@@ -1,8 +1,15 @@
+/*
+	E10: Se leen tres datos que representan:
+	el nombre, sueldo basico y antiguedad de un empleado.
+	Se solicita imprimir el nombre y el sueldo a cobrar.
+	Este sueldo a cobrar, se calcula adicionando al basico el 35%
+	del mismo, si la antiguedad supera los 10 a√±os.
+*/
 #include <stdio.h>
 #include <stdlib.h>
-// Se leen tres datos que representan: el nombre, sueldo b·sico y antig¸edad de un empleado. Se solicita imprimir el nombre y el sueldo a cobrar.
-// Este sueldo a cobrar, se calcula adicionando al b·sico el 35% del mismo, si la antig¸edad supera los 10 aÒos.
+
 float BaseDelSueldo(float basico, int antiguedad);
+
 main(){
 	char nombre[15];
 	float sueldobasico;
@@ -19,8 +26,9 @@ main(){
 	resultado=BaseDelSueldo(sueldobasico, antiguedad);
 	printf("resultado %f",resultado);
 	
-	
+	system("pause"); //getchar();
 }
+
 float BaseDelSueldo(float basico, int antiguedad){
 	float sueldo;
 	if(antiguedad>10){
@@ -30,7 +38,6 @@ float BaseDelSueldo(float basico, int antiguedad){
 	}
 	else{
 	     sueldo=basico;
-	     
 	}
 	return sueldo;
 }

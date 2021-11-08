@@ -1,6 +1,6 @@
 /*
-E1:
-	Se debe ingresar nombre, sexo, edad y porcentaje de tiempo transcurrido de este ano
+	E1: Se debe ingresar nombre, sexo, edad
+	y porcentaje de tiempo transcurrido de este año
 	(mes actual / total meses)*100"
 	Mostrar los resultados correspondientes
 */

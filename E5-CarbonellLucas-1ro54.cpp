@@ -1,4 +1,8 @@
-//Ingresar la marca y el kilometraje de un vehículo,   mostrar el mensaje "Realizar el control técnico", si el kilometraje es mayor 10000.
+/*
+	E5: Ingresar la marca y el kilometraje de un vehiculo,
+	mostrar el mensaje "Realizar el control tecnico",
+	si el kilometraje es mayor 10000.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,4 +20,6 @@ main(){
 		
 		printf("Realizar el control tecnico");
 	}
+
+	system("pause"); //getchar();
 }

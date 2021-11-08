@@ -1,4 +1,6 @@
-// Ingresar 3 numeros y mostrarlos (uno al lado del otro y uno debajo del otro)
+/*
+    E2: Ingresar 3 numeros y mostrarlos (uno al lado del otro y uno debajo del otro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
