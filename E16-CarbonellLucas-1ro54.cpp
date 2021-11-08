@@ -10,40 +10,41 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define CANTIDAD 5
+#define CANTIDAD 20
 
 main()
 {
-	float suma=0;
+	float suma = 0;
 	float promedio;
-	int cpar=0; //Contador de los numeros pares
-	int cimpar=0; //Contador de los numeros impares
+	int cpar = 0; //Contador de los numeros pares
+	int cimpar = 0; //Contador de los numeros impares
 	int numero;
-	int contador=0;
+	int contador = 0;
 	
-	for(contador=0; contador<CANTIDAD; contador=contador+1)
+	for(contador = 0; contador < CANTIDAD; contador++)
 	{
 		printf("Ingresar un Nro:\t");
 		scanf("%i", &numero);
 
 		if(numero>15)
 		{
-			suma=suma+numero;
-			if(numero%2==0)
+			suma = suma + numero;
+
+			if(numero % 2 == 0)
 			{
-				cpar=cpar+1;
+				cpar = cpar + 1;
 			}
 			else
 			{
-				cimpar=cimpar+1;
+				cimpar = cimpar + 1;
 			}
 		}
 		else
 		{
-			contador=contador-1;
+			contador = contador - 1;
 		}
 	}
-	promedio=suma/CANTIDAD;
+	promedio = suma / CANTIDAD;
 
 	printf("Cantidad de Nros. Pares:\t%i", cpar);
 	printf("Cantidad de Nros. Impares:\t%i", cimpar);
