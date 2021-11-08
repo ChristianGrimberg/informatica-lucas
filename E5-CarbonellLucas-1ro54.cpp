@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E5: Ingresar la marca y el kilometraje de un vehiculo,
 	mostrar el mensaje "Realizar el control tecnico",
 	si el kilometraje es mayor 10000.

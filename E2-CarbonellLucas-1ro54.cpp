@@ -1,4 +1,7 @@
 /*
+    AUTOR: Lucas Carbonell
+    COMISION: 1ro 54
+    
     E2: Ingresar 3 numeros y mostrarlos (uno al lado del otro y uno debajo del otro)
 */
 #include <stdio.h>

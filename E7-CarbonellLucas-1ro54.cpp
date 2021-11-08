@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E7: Ingresar 2 numeros y realizar un menu de opciones
 	para que los sume, reste o los muestre
 */

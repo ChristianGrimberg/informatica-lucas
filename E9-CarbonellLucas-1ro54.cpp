@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E9: Se leen tres numeros, A, B, y C.
 	Se pide escribir el mayor de ellos.
 */

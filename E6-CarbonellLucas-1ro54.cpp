@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E6: Hacer un algoritmo que calcule
 	el total a pagar por la compra de camisas.
 	Si se compran tres camisas o mas, se aplica

@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E10: Se leen tres datos que representan:
 	el nombre, sueldo basico y antiguedad de un empleado.
 	Se solicita imprimir el nombre y el sueldo a cobrar.

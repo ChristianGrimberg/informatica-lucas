@@ -1,4 +1,7 @@
 /*
+	AUTOR: Lucas Carbonell
+	COMISION: 1ro 54
+	
 	E4: Diseñar el algoritmo necesario para que,
 	habiendose leido el valor de 2 variables NUM1 y NUM2
 	se intercambien los valores de las mismas,
