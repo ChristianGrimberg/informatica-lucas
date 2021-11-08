@@ -18,7 +18,7 @@
 #include <ctype.h>
 #include <string.h>
 
-#define ARTICULOS 3
+#define ARTICULOS 100
 #define DESCRIPCION 30
 
 char menu();
